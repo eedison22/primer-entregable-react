@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import data from './assets/data.json';
-import Card from './components/card/card';
+import Card from './components/Card/Card';
 
 import espacio1 from '../src/assets/espacio1.jpg'
 import espacio2 from '../src/assets/espacio2.jpg'
