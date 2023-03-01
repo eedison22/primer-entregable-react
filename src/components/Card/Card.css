@@ -1,0 +1,21 @@
+.card {
+    min-width: 300px;
+    max-width: 500px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 0 0 10px whitesmoke;
+    border-radius: 1rem;
+}
+.card__phrase{
+    font-size: 15px;
+    padding: 15px 32px;
+}
+.card__author{
+    font-size: 25px;
+}
+.card__container__button button{
+    width: 150px;
+    height: 50px;
+}
