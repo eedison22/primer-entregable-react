@@ -1,26 +1,18 @@
 import { useState } from 'react';
 import data from './assets/data.json';
 import Card from './components/Card/Card';
-
-import espacio1 from '../src/assets/espacio1.jpg'
-import espacio2 from '../src/assets/espacio2.jpg'
-import espacio3 from '../src/assets/espacio3.jpg'
-import espacio4 from '../src/assets/espacio4.jpg'
-import espacio5 from '../src/assets/espacio5.jpg'
-import espacio6 from '../src/assets/espacio6.jpg'
-import espacio7 from '../src/assets/espacio7.jpg'
-
 import './App.css';
 
 function App() {
+  
   const background = [
-    espacio1,
-    espacio2,
-    espacio3,
-    espacio4,
-    espacio5,
-    espacio6,
-    espacio7,
+    'https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2018/08/15/13/10/galaxy-3608029_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2016/07/19/04/40/moon-1527501_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2011/12/14/12/17/galaxy-11098_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2011/12/15/11/37/galaxy-11188_960_720.jpg',
+    'https://cdn.pixabay.com/photo/2012/11/28/08/54/milky-way-67504_960_720.jpg',
   ];
   const [imageVisible, setImageVisible] = useState(
     Math.floor(Math.random() * (background.length - 1)),
